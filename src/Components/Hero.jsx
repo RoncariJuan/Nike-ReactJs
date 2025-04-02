@@ -1,4 +1,7 @@
 import React from 'react'
+import amazon from '../assets/amazon.png'
+import flipkart from '../assets/flipkart.png'
+import nike from '../assets/hero-image.png'
 
 const Hero = () => {
   return (
@@ -16,13 +19,13 @@ const Hero = () => {
             <div className='shooping'>
                 <p>Also Avaliable On</p>
                 <div className='brand-icons'>
-                    <img src="/src/assets/amazon.png" alt="amazon" />
-                    <img src="/src/assets/flipkart.png" alt="flipkart" />
+                    <img src={amazon} alt="amazon" />
+                    <img src={flipkart} alt="flipkart" />
                 </div>
             </div>
         </div>
         <div className='hero-image'>
-            <img src="/src/assets/hero-image.png" alt="nike" />
+            <img src={nike} alt="nike" />
         </div>
     </main>
   )
